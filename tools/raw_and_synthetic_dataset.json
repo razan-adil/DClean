@@ -1,0 +1,2802 @@
+[
+  {
+    "header": "المهارات التقنية التي تجيدها",
+    "input_text": "Header: المهارات التقنية التي تجيدها | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اختر المسار التدريبي المناسب",
+    "input_text": "Header: اختر المسار التدريبي المناسب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Feedback",
+    "input_text": "Header: Feedback | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الاسم الثلاثي",
+    "input_text": "Header: الاسم الثلاثي | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي تطلعاتك وأهدافك من البرنامج؟",
+    "input_text": "Header: ما هي تطلعاتك وأهدافك من البرنامج؟ | Samples: أرغب في تطوير مهاراتي العملية في بن",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Registered At Date",
+    "input_text": "Header: Registered At Date | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الإلكتروني",
+    "input_text": "Header: البريد الإلكتروني | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تاريخ التسجيل",
+    "input_text": "Header: تاريخ التسجيل | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تاريخ التسجيل",
+    "input_text": "Header: تاريخ التسجيل | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الهوية الوطنية",
+    "input_text": "Header: رقم الهوية الوطنية | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: صعوبة التعامل مع البيانات غير المنظ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Iqama Number",
+    "input_text": "Header: Iqama Number | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Gender",
+    "input_text": "Header: Gender | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الرقم الجامعي",
+    "input_text": "Header: الرقم الجامعي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم الطالب",
+    "input_text": "Header: اسم الطالب | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Academic Level",
+    "input_text": "Header: Academic Level | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "موافقة على التغطية الإعلامية والتصوير",
+    "input_text": "Header: موافقة على التغطية الإعلامية والتصوير | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: صعوبة التعامل مع البيانات غير المنظ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الاسم الثلاثي",
+    "input_text": "Header: الاسم الثلاثي | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Iqama Number",
+    "input_text": "Header: Iqama Number | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Year of Study",
+    "input_text": "Header: Year of Study | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Year of Study",
+    "input_text": "Header: Year of Study | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حالة الحضور",
+    "input_text": "Header: حالة الحضور | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Academic ID No",
+    "input_text": "Header: Academic ID No | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "لماذا ترغب بالانضمام إلى هذا المعسكر؟",
+    "input_text": "Header: لماذا ترغب بالانضمام إلى هذا المعسكر؟ | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "First & Last Name",
+    "input_text": "Header: First & Last Name | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الواتساب للتواصل",
+    "input_text": "Header: رقم الواتساب للتواصل | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "GPA",
+    "input_text": "Header: GPA | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Additional Comments & Feedback",
+    "input_text": "Header: Additional Comments & Feedback | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: 4.85 / 5.0, 3.90 / 4.0, 95.5%",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Cell Phone",
+    "input_text": "Header: Cell Phone | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المرحلة الدراسية",
+    "input_text": "Header: المرحلة الدراسية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Personal Email",
+    "input_text": "Header: Personal Email | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حاضر / غائب",
+    "input_text": "Header: حاضر / غائب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Any suggestions or notes",
+    "input_text": "Header: Any suggestions or notes | Samples: صعوبة التعامل مع البيانات غير المنظ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الملف الشخصي",
+    "input_text": "Header: الملف الشخصي | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Attendance Status",
+    "input_text": "Header: Attendance Status | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "جامعة التخرج",
+    "input_text": "Header: جامعة التخرج | Samples: 4.85 / 5.0, 3.90 / 4.0, 95.5%",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Any suggestions or notes",
+    "input_text": "Header: Any suggestions or notes | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل حضرت ورشة العمل السابقة؟",
+    "input_text": "Header: هل حضرت ورشة العمل السابقة؟ | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "إيميل الطالب الرسمي",
+    "input_text": "Header: إيميل الطالب الرسمي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "لماذا ترغب بالانضمام إلى هذا المعسكر؟",
+    "input_text": "Header: لماذا ترغب بالانضمام إلى هذا المعسكر؟ | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "General Feedback & Comments",
+    "input_text": "Header: General Feedback & Comments | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي دوافعك للتقديم؟",
+    "input_text": "Header: ما هي دوافعك للتقديم؟ | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Registered At Date",
+    "input_text": "Header: Registered At Date | Samples: جامعة الملك عبدالعزيز, جامعة جدة, King Fahd University of Petroleum &",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Contact Phone (+966)",
+    "input_text": "Header: Contact Phone (+966) | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رابط حساب لينكد إن",
+    "input_text": "Header: رابط حساب لينكد إن | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مقترحات لتطوير الورشة",
+    "input_text": "Header: مقترحات لتطوير الورشة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حاضر / غائب",
+    "input_text": "Header: حاضر / غائب | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل أنت عضو في النادي؟",
+    "input_text": "Header: هل أنت عضو في النادي؟ | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الإقامة",
+    "input_text": "Header: رقم الإقامة | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Student University Email",
+    "input_text": "Header: Student University Email | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "جوال ولي الأمر",
+    "input_text": "Header: جوال ولي الأمر | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "GPA",
+    "input_text": "Header: GPA | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Student University Email",
+    "input_text": "Header: Student University Email | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل توافق على الشروط والأحكام؟",
+    "input_text": "Header: هل توافق على الشروط والأحكام؟ | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Campus Location",
+    "input_text": "Header: Campus Location | Samples: 4.85 / 5.0, 3.90 / 4.0, 95.5%",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Sex",
+    "input_text": "Header: Sex | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "موافقة على التغطية الإعلامية والتصوير",
+    "input_text": "Header: موافقة على التغطية الإعلامية والتصوير | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: مسار الذكاء الاصطناعي, مسار هندسة البيانات, مسار تحليل النظم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حالة الحضور",
+    "input_text": "Header: حالة الحضور | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Department",
+    "input_text": "Header: Department | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "موافقة على التغطية الإعلامية والتصوير",
+    "input_text": "Header: موافقة على التغطية الإعلامية والتصوير | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "صف أبرز التحديات التي واجهتك سابقاً",
+    "input_text": "Header: صف أبرز التحديات التي واجهتك سابقاً | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "National ID",
+    "input_text": "Header: National ID | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ملاحظات واقتراحات عامة",
+    "input_text": "Header: ملاحظات واقتراحات عامة | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل أنت عضو في النادي؟",
+    "input_text": "Header: هل أنت عضو في النادي؟ | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Brief Project Summary",
+    "input_text": "Header: Brief Project Summary | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Year of Study",
+    "input_text": "Header: Year of Study | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجهة التعليمية",
+    "input_text": "Header: الجهة التعليمية | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل توافق على الشروط والأحكام؟",
+    "input_text": "Header: هل توافق على الشروط والأحكام؟ | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم المشارك بالعربي",
+    "input_text": "Header: اسم المشارك بالعربي | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تحدث باختصار عن مشروع تقني قمت ببنائه",
+    "input_text": "Header: تحدث باختصار عن مشروع تقني قمت ببنائه | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تحدث باختصار عن مشروع تقني قمت ببنائه",
+    "input_text": "Header: تحدث باختصار عن مشروع تقني قمت ببنائه | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "English Name",
+    "input_text": "Header: English Name | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: أرغب في تطوير مهاراتي العملية في بن",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Feedback",
+    "input_text": "Header: Feedback | Samples: أرغب في تطوير مهاراتي العملية في بن",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم الطالب",
+    "input_text": "Header: اسم الطالب | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حاضر / غائب",
+    "input_text": "Header: حاضر / غائب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الواتساب للتواصل",
+    "input_text": "Header: رقم الواتساب للتواصل | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Email Address",
+    "input_text": "Header: Email Address | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "جامعة التخرج",
+    "input_text": "Header: جامعة التخرج | Samples: ذكر, أنثى, Male",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Evaluation Score",
+    "input_text": "Header: Evaluation Score | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجهة التعليمية",
+    "input_text": "Header: الجهة التعليمية | Samples: جامعة الملك عبدالعزيز, جامعة جدة, King Fahd University of Petroleum &",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "GitHub Profile",
+    "input_text": "Header: GitHub Profile | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Phone Number",
+    "input_text": "Header: Phone Number | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المرحلة الدراسية",
+    "input_text": "Header: المرحلة الدراسية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مقترحات لتطوير الورشة",
+    "input_text": "Header: مقترحات لتطوير الورشة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Evaluation Score",
+    "input_text": "Header: Evaluation Score | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Participant Full Name",
+    "input_text": "Header: Participant Full Name | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Personal Email",
+    "input_text": "Header: Personal Email | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم الطالب",
+    "input_text": "Header: اسم الطالب | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل حضرت ورشة العمل السابقة؟",
+    "input_text": "Header: هل حضرت ورشة العمل السابقة؟ | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "GPA",
+    "input_text": "Header: GPA | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المنطقة / الفرع",
+    "input_text": "Header: المنطقة / الفرع | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي دوافعك للتقديم؟",
+    "input_text": "Header: ما هي دوافعك للتقديم؟ | Samples: أرغب في تطوير مهاراتي العملية في بن",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الرقم الجامعي",
+    "input_text": "Header: الرقم الجامعي | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المهارات التقنية التي تجيدها",
+    "input_text": "Header: المهارات التقنية التي تجيدها | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الرقم الجامعي",
+    "input_text": "Header: الرقم الجامعي | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "لماذا ترغب بالانضمام إلى هذا المعسكر؟",
+    "input_text": "Header: لماذا ترغب بالانضمام إلى هذا المعسكر؟ | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المستوى الدراسي",
+    "input_text": "Header: المستوى الدراسي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الإلكتروني",
+    "input_text": "Header: البريد الإلكتروني | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Registered At Date",
+    "input_text": "Header: Registered At Date | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تحدث باختصار عن مشروع تقني قمت ببنائه",
+    "input_text": "Header: تحدث باختصار عن مشروع تقني قمت ببنائه | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Brief Project Summary",
+    "input_text": "Header: Brief Project Summary | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تحدث باختصار عن مشروع تقني قمت ببنائه",
+    "input_text": "Header: تحدث باختصار عن مشروع تقني قمت ببنائه | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Comments",
+    "input_text": "Header: Comments | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Brief Project Summary",
+    "input_text": "Header: Brief Project Summary | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ملاحظات أو اقتراحات إضافية تود مشاركتها",
+    "input_text": "Header: ملاحظات أو اقتراحات إضافية تود مشاركتها | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي دوافعك للتقديم؟",
+    "input_text": "Header: ما هي دوافعك للتقديم؟ | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Department",
+    "input_text": "Header: Department | Samples: 4.85 / 5.0, 3.90 / 4.0, 95.5%",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مقترحات لتطوير الورشة",
+    "input_text": "Header: مقترحات لتطوير الورشة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي دوافعك للتقديم؟",
+    "input_text": "Header: ما هي دوافعك للتقديم؟ | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Attendance Status",
+    "input_text": "Header: Attendance Status | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "English Name",
+    "input_text": "Header: English Name | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مقترحات لتطوير الورشة",
+    "input_text": "Header: مقترحات لتطوير الورشة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "First & Last Name",
+    "input_text": "Header: First & Last Name | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "لماذا ترغب بالانضمام إلى هذا المعسكر؟",
+    "input_text": "Header: لماذا ترغب بالانضمام إلى هذا المعسكر؟ | Samples: أرغب في تطوير مهاراتي العملية في بن",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Biggest distraction in daily work",
+    "input_text": "Header: Biggest distraction in daily work | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: صعوبة التعامل مع البيانات غير المنظ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "موافقة على التغطية الإعلامية والتصوير",
+    "input_text": "Header: موافقة على التغطية الإعلامية والتصوير | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Year of Study",
+    "input_text": "Header: Year of Study | Samples: جامعة الملك عبدالعزيز, جامعة جدة, King Fahd University of Petroleum &",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما أكبر مسبب للتشتت الذهني أثناء العمل أو الدراسة؟",
+    "input_text": "Header: ما أكبر مسبب للتشتت الذهني أثناء العمل أو الدراسة؟ | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Attendance Status",
+    "input_text": "Header: Attendance Status | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Skills (Multi-select)",
+    "input_text": "Header: Technical Skills (Multi-select) | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الإلكتروني",
+    "input_text": "Header: البريد الإلكتروني | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما أكبر مسبب للتشتت الذهني أثناء العمل أو الدراسة؟",
+    "input_text": "Header: ما أكبر مسبب للتشتت الذهني أثناء العمل أو الدراسة؟ | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ملاحظات واقتراحات عامة",
+    "input_text": "Header: ملاحظات واقتراحات عامة | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اختر المسار التدريبي المناسب",
+    "input_text": "Header: اختر المسار التدريبي المناسب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي تطلعاتك وأهدافك من البرنامج؟",
+    "input_text": "Header: ما هي تطلعاتك وأهدافك من البرنامج؟ | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "National ID",
+    "input_text": "Header: National ID | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "التخصص الأكاديمي",
+    "input_text": "Header: التخصص الأكاديمي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Additional Comments & Feedback",
+    "input_text": "Header: Additional Comments & Feedback | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Department",
+    "input_text": "Header: Department | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الرقم الجامعي",
+    "input_text": "Header: الرقم الجامعي | Samples: ذكر, أنثى, Male",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Student University Email",
+    "input_text": "Header: Student University Email | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حاضر / غائب",
+    "input_text": "Header: حاضر / غائب | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ملاحظات واقتراحات عامة",
+    "input_text": "Header: ملاحظات واقتراحات عامة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مدينة الإقامة",
+    "input_text": "Header: مدينة الإقامة | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الكلية",
+    "input_text": "Header: الكلية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تحدث باختصار عن مشروع تقني قمت ببنائه",
+    "input_text": "Header: تحدث باختصار عن مشروع تقني قمت ببنائه | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مقترحات لتطوير الورشة",
+    "input_text": "Header: مقترحات لتطوير الورشة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم الجامعة",
+    "input_text": "Header: اسم الجامعة | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل حضرت ورشة العمل السابقة؟",
+    "input_text": "Header: هل حضرت ورشة العمل السابقة؟ | Samples: مسار الذكاء الاصطناعي, مسار هندسة البيانات, مسار تحليل النظم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "نوع الجنس",
+    "input_text": "Header: نوع الجنس | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل أنت عضو في النادي؟",
+    "input_text": "Header: هل أنت عضو في النادي؟ | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المستوى الدراسي",
+    "input_text": "Header: المستوى الدراسي | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حالة الحضور",
+    "input_text": "Header: حالة الحضور | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Participant Full Name",
+    "input_text": "Header: Participant Full Name | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اختر المسار التدريبي المناسب",
+    "input_text": "Header: اختر المسار التدريبي المناسب | Samples: مسار الذكاء الاصطناعي, مسار هندسة البيانات, مسار تحليل النظم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: مسار الذكاء الاصطناعي, مسار هندسة البيانات, مسار تحليل النظم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "What are your expectations?",
+    "input_text": "Header: What are your expectations? | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "General Feedback & Comments",
+    "input_text": "Header: General Feedback & Comments | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الاسم الرباعي",
+    "input_text": "Header: الاسم الرباعي | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Cell Phone",
+    "input_text": "Header: Cell Phone | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الجوال",
+    "input_text": "Header: رقم الجوال | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Contact Phone (+966)",
+    "input_text": "Header: Contact Phone (+966) | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Department",
+    "input_text": "Header: Department | Samples: 4.85 / 5.0, 3.90 / 4.0, 95.5%",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Contact Phone (+966)",
+    "input_text": "Header: Contact Phone (+966) | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تحدث باختصار عن مشروع تقني قمت ببنائه",
+    "input_text": "Header: تحدث باختصار عن مشروع تقني قمت ببنائه | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم الطالب",
+    "input_text": "Header: اسم الطالب | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجهة التعليمية",
+    "input_text": "Header: الجهة التعليمية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الكلية",
+    "input_text": "Header: الكلية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Mobile Number",
+    "input_text": "Header: Mobile Number | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الرقم الجامعي",
+    "input_text": "Header: الرقم الجامعي | Samples: جامعة الملك عبدالعزيز, جامعة جدة, King Fahd University of Petroleum &",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الواتساب للتواصل",
+    "input_text": "Header: رقم الواتساب للتواصل | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "درجة الاختبار",
+    "input_text": "Header: درجة الاختبار | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Full Name (English)",
+    "input_text": "Header: Full Name (English) | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Cell Phone",
+    "input_text": "Header: Cell Phone | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الايميل الشخصي",
+    "input_text": "Header: الايميل الشخصي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Student University Email",
+    "input_text": "Header: Student University Email | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Brief Project Summary",
+    "input_text": "Header: Brief Project Summary | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الإلكتروني",
+    "input_text": "Header: البريد الإلكتروني | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Mobile Number",
+    "input_text": "Header: Mobile Number | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Iqama Number",
+    "input_text": "Header: Iqama Number | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Email Address",
+    "input_text": "Header: Email Address | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Personal Email",
+    "input_text": "Header: Personal Email | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "English Name",
+    "input_text": "Header: English Name | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Full Name (English)",
+    "input_text": "Header: Full Name (English) | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: 4.85 / 5.0, 3.90 / 4.0, 95.5%",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Skills (Multi-select)",
+    "input_text": "Header: Technical Skills (Multi-select) | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الاسم الرباعي",
+    "input_text": "Header: الاسم الرباعي | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Biggest distraction in daily work",
+    "input_text": "Header: Biggest distraction in daily work | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المعدل التراكمي",
+    "input_text": "Header: المعدل التراكمي | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "University / College",
+    "input_text": "Header: University / College | Samples: جامعة الملك عبدالعزيز, جامعة جدة, King Fahd University of Petroleum &",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مجالات الاهتمام المفضلة",
+    "input_text": "Header: مجالات الاهتمام المفضلة | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اختر المسار التدريبي المناسب",
+    "input_text": "Header: اختر المسار التدريبي المناسب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "موافقة على التغطية الإعلامية والتصوير",
+    "input_text": "Header: موافقة على التغطية الإعلامية والتصوير | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الهاتف",
+    "input_text": "Header: رقم الهاتف | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Comments",
+    "input_text": "Header: Comments | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الكلية",
+    "input_text": "Header: الكلية | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المستوى الدراسي",
+    "input_text": "Header: المستوى الدراسي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Brief Project Summary",
+    "input_text": "Header: Brief Project Summary | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "National ID",
+    "input_text": "Header: National ID | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Major",
+    "input_text": "Header: Major | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "جوال ولي الأمر",
+    "input_text": "Header: جوال ولي الأمر | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "General Feedback & Comments",
+    "input_text": "Header: General Feedback & Comments | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Attendance Status",
+    "input_text": "Header: Attendance Status | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Phone Number",
+    "input_text": "Header: Phone Number | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مقترحات لتطوير الورشة",
+    "input_text": "Header: مقترحات لتطوير الورشة | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Comments",
+    "input_text": "Header: Comments | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المرحلة الدراسية",
+    "input_text": "Header: المرحلة الدراسية | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Feedback",
+    "input_text": "Header: Feedback | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الايميل الشخصي",
+    "input_text": "Header: الايميل الشخصي | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الإقامة",
+    "input_text": "Header: رقم الإقامة | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مجالات الاهتمام المفضلة",
+    "input_text": "Header: مجالات الاهتمام المفضلة | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Additional Comments & Feedback",
+    "input_text": "Header: Additional Comments & Feedback | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المعدل التراكمي",
+    "input_text": "Header: المعدل التراكمي | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Additional Comments & Feedback",
+    "input_text": "Header: Additional Comments & Feedback | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حالة الحضور",
+    "input_text": "Header: حالة الحضور | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Active Club Member?",
+    "input_text": "Header: Active Club Member? | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Iqama Number",
+    "input_text": "Header: Iqama Number | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "General Feedback & Comments",
+    "input_text": "Header: General Feedback & Comments | Samples: صعوبة التعامل مع البيانات غير المنظ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Phone Number",
+    "input_text": "Header: Phone Number | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Comments",
+    "input_text": "Header: Comments | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حالة الحضور",
+    "input_text": "Header: حالة الحضور | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الرقم الجامعي",
+    "input_text": "Header: الرقم الجامعي | Samples: جدة, الرياض, الدمام",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المقر المفضل",
+    "input_text": "Header: المقر المفضل | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "English Name",
+    "input_text": "Header: English Name | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Describe past technical challenges",
+    "input_text": "Header: Describe past technical challenges | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل حضرت ورشة العمل السابقة؟",
+    "input_text": "Header: هل حضرت ورشة العمل السابقة؟ | Samples: نعم, لا, نعم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Participant Full Name",
+    "input_text": "Header: Participant Full Name | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Personal Email",
+    "input_text": "Header: Personal Email | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Participant Full Name",
+    "input_text": "Header: Participant Full Name | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "موافقة على التغطية الإعلامية والتصوير",
+    "input_text": "Header: موافقة على التغطية الإعلامية والتصوير | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Tell us about a technical project you built",
+    "input_text": "Header: Tell us about a technical project you built | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل توافق على الشروط والأحكام؟",
+    "input_text": "Header: هل توافق على الشروط والأحكام؟ | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "General Feedback & Comments",
+    "input_text": "Header: General Feedback & Comments | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Skills (Multi-select)",
+    "input_text": "Header: Technical Skills (Multi-select) | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "السنة الأكاديمية",
+    "input_text": "Header: السنة الأكاديمية | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل أنت عضو في النادي؟",
+    "input_text": "Header: هل أنت عضو في النادي؟ | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Contact Phone (+966)",
+    "input_text": "Header: Contact Phone (+966) | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مدينة الإقامة",
+    "input_text": "Header: مدينة الإقامة | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Brief Project Summary",
+    "input_text": "Header: Brief Project Summary | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي دوافعك للتقديم؟",
+    "input_text": "Header: ما هي دوافعك للتقديم؟ | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "صف أبرز التحديات التي واجهتك سابقاً",
+    "input_text": "Header: صف أبرز التحديات التي واجهتك سابقاً | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الهاتف",
+    "input_text": "Header: رقم الهاتف | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Skills (Multi-select)",
+    "input_text": "Header: Technical Skills (Multi-select) | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Biggest distraction in daily work",
+    "input_text": "Header: Biggest distraction in daily work | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل أنت عضو في النادي؟",
+    "input_text": "Header: هل أنت عضو في النادي؟ | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "GPA",
+    "input_text": "Header: GPA | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي تطلعاتك وأهدافك من البرنامج؟",
+    "input_text": "Header: ما هي تطلعاتك وأهدافك من البرنامج؟ | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "هل أنت عضو في النادي؟",
+    "input_text": "Header: هل أنت عضو في النادي؟ | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اختر المسار التدريبي المناسب",
+    "input_text": "Header: اختر المسار التدريبي المناسب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "تاريخ التسجيل",
+    "input_text": "Header: تاريخ التسجيل | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: مسار الذكاء الاصطناعي, مسار هندسة البيانات, مسار تحليل النظم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: صعوبة التعامل مع البيانات غير المنظ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "صف أبرز التحديات التي واجهتك سابقاً",
+    "input_text": "Header: صف أبرز التحديات التي واجهتك سابقاً | Samples: نأمل توفير تسجيلات مرئية للورش وتوف",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الاسم الثلاثي",
+    "input_text": "Header: الاسم الثلاثي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الإلكتروني",
+    "input_text": "Header: البريد الإلكتروني | Samples: student@example.com, participant@example.com, admin@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "صف أبرز التحديات التي واجهتك سابقاً",
+    "input_text": "Header: صف أبرز التحديات التي واجهتك سابقاً | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حاضر / غائب",
+    "input_text": "Header: حاضر / غائب | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "القسم العلمي",
+    "input_text": "Header: القسم العلمي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الجوال",
+    "input_text": "Header: رقم الجوال | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: موافق, غير موافق",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المرحلة الدراسية",
+    "input_text": "Header: المرحلة الدراسية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Do you agree to terms?",
+    "input_text": "Header: Do you agree to terms? | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رابط حساب لينكد إن",
+    "input_text": "Header: رابط حساب لينكد إن | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Full Name (English)",
+    "input_text": "Header: Full Name (English) | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "National ID",
+    "input_text": "Header: National ID | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "المهارات التقنية التي تجيدها",
+    "input_text": "Header: المهارات التقنية التي تجيدها | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "General Feedback & Comments",
+    "input_text": "Header: General Feedback & Comments | Samples: Great workshop overall, would love ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الإقامة",
+    "input_text": "Header: رقم الإقامة | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Sex",
+    "input_text": "Header: Sex | Samples: ذكر, أنثى, Male",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مرئيات ومقترحات المشاركين",
+    "input_text": "Header: مرئيات ومقترحات المشاركين | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الجامعي",
+    "input_text": "Header: البريد الجامعي | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "GitHub Profile",
+    "input_text": "Header: GitHub Profile | Samples: سنة أولى, سنة ثالثة, خريج",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "القسم العلمي",
+    "input_text": "Header: القسم العلمي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "البريد الإلكتروني",
+    "input_text": "Header: البريد الإلكتروني | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Student University Email",
+    "input_text": "Header: Student University Email | Samples: Salman Al-Harbi, Nouf Al-Otaibi, Tariq Al-Ali",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Portfolio Link",
+    "input_text": "Header: Portfolio Link | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Skills (Multi-select)",
+    "input_text": "Header: Technical Skills (Multi-select) | Samples: حاضر, غائب, معتذر",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Why do you want to join?",
+    "input_text": "Header: Why do you want to join? | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم القيد الأكاديمي",
+    "input_text": "Header: رقم القيد الأكاديمي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "حاضر / غائب",
+    "input_text": "Header: حاضر / غائب | Samples: الأحد، الثلاثاء, السبت فقط, جميع الأيام",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "جوال ولي الأمر",
+    "input_text": "Header: جوال ولي الأمر | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الجنس",
+    "input_text": "Header: الجنس | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Feedback",
+    "input_text": "Header: Feedback | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "جوال ولي الأمر",
+    "input_text": "Header: جوال ولي الأمر | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مدينة الإقامة",
+    "input_text": "Header: مدينة الإقامة | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "WhatsApp No",
+    "input_text": "Header: WhatsApp No | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Registered At Date",
+    "input_text": "Header: Registered At Date | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي دوافعك للتقديم؟",
+    "input_text": "Header: ما هي دوافعك للتقديم؟ | Samples: ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مدينة الإقامة",
+    "input_text": "Header: مدينة الإقامة | Samples: 2026-09-01 14:30:00, 2026-09-02 09:15:22, 46266.6125",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رابط حساب لينكد إن",
+    "input_text": "Header: رابط حساب لينكد إن | Samples: جامعة الملك عبدالعزيز, جامعة جدة, King Fahd University of Petroleum &",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Technical Background Details",
+    "input_text": "Header: Technical Background Details | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Attendance Status",
+    "input_text": "Header: Attendance Status | Samples: مسار الذكاء الاصطناعي, مسار هندسة البيانات, مسار تحليل النظم",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "City / Branch",
+    "input_text": "Header: City / Branch | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "أيام الحضور المفضلة",
+    "input_text": "Header: أيام الحضور المفضلة | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Any suggestions or notes",
+    "input_text": "Header: Any suggestions or notes | Samples: الاستفادة من خبرات المدربين والتواص",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الإقامة",
+    "input_text": "Header: رقم الإقامة | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ما هي تطلعاتك وأهدافك من البرنامج؟",
+    "input_text": "Header: ما هي تطلعاتك وأهدافك من البرنامج؟ | Samples: Everything was clear and well organ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Cell Phone",
+    "input_text": "Header: Cell Phone | Samples: fahad@example.com, sarah99@example.com, tariq.ali@example.com",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Consent to media coverage & photos",
+    "input_text": "Header: Consent to media coverage & photos | Samples: Python، Docker، SQL, Pandas, Scikit-Learn, PyTorch, Java; C++; SQL",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم القيد الأكاديمي",
+    "input_text": "Header: رقم القيد الأكاديمي | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Degree Program",
+    "input_text": "Header: Degree Program | Samples: https://linkedin.com/in/fahad, https://github.com/salman",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "National ID",
+    "input_text": "Header: National ID | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اسم الطالب",
+    "input_text": "Header: اسم الطالب | Samples: عبدالله محمد السالم, فهد الدوسري, سارة إبراهيم الشريف",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الايميل الشخصي",
+    "input_text": "Header: الايميل الشخصي | Samples: 1098765432, 2198765432, 1122334455",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رابط حساب لينكد إن",
+    "input_text": "Header: رابط حساب لينكد إن | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Iqama Number",
+    "input_text": "Header: Iqama Number | Samples: 0501234567, +966554433221, 00966541239876",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Phone Number",
+    "input_text": "Header: Phone Number | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "اختر المسار التدريبي المناسب",
+    "input_text": "Header: اختر المسار التدريبي المناسب | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "الكلية",
+    "input_text": "Header: الكلية | Samples: ",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "نوع الجنس",
+    "input_text": "Header: نوع الجنس | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "صف أبرز التحديات التي واجهتك سابقاً",
+    "input_text": "Header: صف أبرز التحديات التي واجهتك سابقاً | Samples: وسائل التواصل الاجتماعي والإشعارات ",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "رقم الجوال",
+    "input_text": "Header: رقم الجوال | Samples: ",
+    "label": 0,
+    "group": "Identity",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Preferred Tracks",
+    "input_text": "Header: Preferred Tracks | Samples: ",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "ملاحظات أو اقتراحات إضافية تود مشاركتها",
+    "input_text": "Header: ملاحظات أو اقتراحات إضافية تود مشاركتها | Samples: أرغب في تطوير مهاراتي العملية في بن",
+    "label": 3,
+    "group": "Free-Form",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "Have you attended previous workshops?",
+    "input_text": "Header: Have you attended previous workshops? | Samples: Yes, No, Yes",
+    "label": 2,
+    "group": "Categorical/MultiSelect",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "LinkedIn URL",
+    "input_text": "Header: LinkedIn URL | Samples: 441002938, 442001928, 443009182",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  },
+  {
+    "header": "مدينة الإقامة",
+    "input_text": "Header: مدينة الإقامة | Samples: علوم الحاسب, الذكاء الاصطناعي, هندسة البرمجيات",
+    "label": 1,
+    "group": "Structured/MetaData",
+    "source": "synthetic_template"
+  }
+]

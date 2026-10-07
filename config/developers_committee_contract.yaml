@@ -1,0 +1,129 @@
+version: 1.0
+dataset_id: "developers_committee_2026_contract"
+target_fact_table: "fact_committee_applications"
+quarantine_threshold_pct: 15.0
+
+canonical_mappings:
+  - target_field: "registered_at"
+    group: "Structured/MetaData"
+    type: "datetime"
+    aliases:
+      - "Timestamp"
+      - "وقت التسجيل"
+    required: true
+    transformers: ["parse_utc_iso"]
+
+  - target_field: "full_name_ar"
+    group: "Identity"
+    type: "string"
+    aliases:
+      - "الاسم الثلاثي بالعربي"
+      - "الاسم بالعربي"
+      - "الاسم الكامل"
+    required: true
+    transformers: ["strip", "normalize_arabic_name"]
+
+  - target_field: "full_name_en"
+    group: "Identity"
+    type: "string"
+    aliases:
+      - "الاسم الثلاثي بالانجليزي"
+      - "الاسم بالإنجليزي"
+      - "English Name"
+    required: false
+    transformers: ["strip", "title_case_en"]
+
+  - target_field: "gender"
+    group: "Structured/MetaData"
+    type: "string"
+    aliases:
+      - "الجنس"
+      - "Gender"
+    required: false
+    transformers: ["strip"]
+
+  - target_field: "phone"
+    group: "Identity"
+    type: "phone"
+    default_region: "SA"
+    aliases:
+      - "رقم الجوال"
+      - "الجوال"
+      - "Phone"
+      - "Mobile"
+    required: true
+    transformers: ["strip", "restore_leading_zero", "parse_e164"]
+
+  - target_field: "email"
+    group: "Identity"
+    type: "email"
+    aliases:
+      - "البريد الإلكتروني (Gmail)"
+      - "البريد الإلكتروني"
+      - "Email"
+    required: true
+    transformers: ["strip", "lowercase", "validate_email"]
+
+  - target_field: "academic_email"
+    group: "Identity"
+    type: "email"
+    aliases:
+      - "البريد الإلكتروني (الجامعي)"
+      - "البريد الجامعي"
+    required: false
+    transformers: ["strip", "lowercase", "validate_email"]
+
+  - target_field: "branch"
+    group: "Structured/MetaData"
+    type: "string"
+    aliases:
+      - "الفرع"
+      - "Branch"
+      - "المدينة"
+    required: false
+    transformers: ["strip"]
+
+  - target_field: "major"
+    group: "Structured/MetaData"
+    type: "string"
+    aliases:
+      - "التخصص الجامعي"
+      - "التخصص"
+      - "Major"
+    required: false
+    transformers: ["strip", "canonical_major"]
+
+  - target_field: "is_gdsc_member"
+    group: "Categorical/MultiSelect"
+    type: "boolean"
+    aliases:
+      - "هل أنت/ي عضو في مجتمع قوقل؟"
+    required: false
+    transformers: ["parse_boolean"]
+
+  - target_field: "linkedin_url"
+    group: "Structured/MetaData"
+    type: "string"
+    aliases:
+      - "شاركنا حسابك في (LinkedIn)"
+      - "LinkedIn"
+    required: false
+    transformers: ["strip"]
+
+  - target_field: "subcommittee_choice"
+    group: "Categorical/MultiSelect"
+    type: "string"
+    aliases:
+      - "اختر اللجنة الفرعية التي ترغب بالعمل عليها داخل لجنة المطورين"
+    required: false
+    transformers: ["strip"]
+
+  - target_field: "technical_skills"
+    group: "Free-Form"
+    type: "text"
+    aliases:
+      - "ما هي مهاراتك التقنية ذات الصلة؟"
+    required: false
+    transformers: ["strip", "normalize_multiselect"]
+
+unmapped_columns_strategy: "store_jsonb"

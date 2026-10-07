@@ -1,0 +1,162 @@
+version: 1.0
+dataset_id: "workshop_attendance_contract"
+target_fact_table: "fact_workshop_registrations"
+quarantine_threshold_pct: 15.0
+
+canonical_mappings:
+  - target_field: "full_name_ar"
+    group: "Identity"
+    type: "string"
+    aliases:
+      - "FullName(AR)"
+      - "الاسم الثلاثي"
+      - "الاسم الكامل"
+      - "الاسم بالعربي"
+      - "الاسم (بالعربي)"
+      - "اسم المشارك"
+      - "اسم الطالب"
+      - "الاسم"
+    required: false
+    transformers: ["strip", "normalize_arabic_name"]
+
+  - target_field: "full_name_en"
+    group: "Identity"
+    type: "string"
+    aliases:
+      - "FullName(En)"
+      - "Full Name"
+      - "English Name"
+      - "Name in English"
+      - "الاسم بالإنجليزي"
+      - "Participant Name"
+    required: false
+    transformers: ["strip", "title_case_en"]
+
+  - target_field: "email"
+    group: "Identity"
+    type: "email"
+    aliases:
+      - "Email"
+      - "Email Address"
+      - "البريد الإلكتروني"
+      - "الإيميل"
+      - "البريد"
+    required: false
+    transformers: ["strip", "lowercase", "validate_email"]
+
+  - target_field: "phone"
+    group: "Identity"
+    type: "phone"
+    default_region: "SA"
+    aliases:
+      - "Phone"
+      - "Phone Number"
+      - "الجوال"
+      - "رقم الجوال"
+      - "رقم التواصل"
+      - "رقم الهاتف"
+      - "Mobile"
+      - "WhatsApp"
+    required: false
+    transformers: ["strip", "restore_leading_zero", "parse_e164"]
+
+  - target_field: "major"
+    group: "Structured/MetaData"
+    type: "string"
+    aliases:
+      - "Major"
+      - "التخصص"
+      - "القسم"
+      - "Specialization"
+    required: false
+    transformers: ["strip", "canonical_major"]
+
+  - target_field: "university"
+    group: "Structured/MetaData"
+    type: "string"
+    aliases:
+      - "Univeristy"
+      - "University"
+      - "الجامعة"
+      - "جهة الدراسة"
+      - "Uni"
+    required: false
+    transformers: ["strip", "canonical_university"]
+
+  - target_field: "academic_lvl"
+    group: "Structured/MetaData"
+    type: "enum"
+    aliases:
+      - "Academic lvl"
+      - "Academic Level"
+      - "المستوى الدراسي"
+      - "السنة الدراسية"
+      - "المرحلة الدراسية"
+    required: false
+    transformers: ["strip", "canonical_academic_level"]
+
+  - target_field: "source_channel"
+    group: "Categorical/MultiSelect"
+    type: "string"
+    aliases:
+      - "Where did you hear about about the workshop"
+      - "Where did you hear about the workshop"
+      - "كيف سمعت عن الورشة"
+      - "مصدر المعرفة بالورشة"
+    required: false
+    transformers: ["strip", "normalize_multiselect"]
+
+  - target_field: "expectations"
+    group: "Free-Form"
+    type: "text"
+    aliases:
+      - "What to expect from the workshop"
+      - "ماذا تتوقع من الورشة"
+      - "توقعاتك من الورشة"
+    required: false
+    transformers: ["strip"]
+
+  - target_field: "biggest_distraction"
+    group: "Free-Form"
+    type: "text"
+    aliases:
+      - "Biggest source of distraction"
+      - "أكبر مصدر تشتت"
+      - "ما هو أكبر مصدر لتشتتك"
+    required: false
+    transformers: ["strip"]
+
+  - target_field: "consent_photo"
+    group: "Categorical/MultiSelect"
+    type: "boolean"
+    aliases:
+      - "Agree to being photographed?"
+      - "الموافقة على التصوير"
+      - "هل توافق على التصوير؟"
+    required: false
+    transformers: ["parse_boolean"]
+
+  - target_field: "attendance"
+    group: "Categorical/MultiSelect"
+    type: "boolean"
+    aliases:
+      - "Attendace"
+      - "Attendance"
+      - "الحضور"
+      - "حالة الحضور"
+      - "حضر"
+    required: false
+    transformers: ["parse_boolean"]
+
+  - target_field: "registered_at"
+    group: "Structured/MetaData"
+    type: "datetime"
+    aliases:
+      - "TimeStamp"
+      - "Timestamp"
+      - "وقت التسجيل"
+      - "تاريخ التسجيل"
+    required: true
+    transformers: ["parse_utc_iso"]
+
+unmapped_columns_strategy: "store_jsonb"
